@@ -38,10 +38,7 @@ app.get("/saving", (req, res) => {
   res.json(budget);
 });
 
-app.post("/test", (req, res) => { 
-    console.log(req.body);  
-    res.json(req.body);
-});
+
 
 app.post("/insert", (req, res) => {
   if (!req.is("json")) {
