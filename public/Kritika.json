@@ -1,0 +1,30 @@
+[{
+    "title": "rent",
+    "budget": "200"
+},
+{
+    "title": "Shopping",
+    "budget": "100"
+},
+
+{
+    "title": "Beauty",
+    "budget": "400"
+},
+
+{
+    "title": "Dine in",
+    "budget": "104"
+},
+
+{
+    "title": "Travel",
+    "budget": "160"
+},
+
+{
+    "title": "Education",
+    "budget": "170"
+}
+
+]

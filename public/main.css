@@ -45,7 +45,7 @@ nav.menu ul li a:hover  {
 div.hero {
     height: 350px;
     background-color: #b4c6f0;
-    /*background-image: url('bg.png');*/
+    background-image: url('bg.png');
     background-size: 400px;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -158,7 +158,7 @@ footer {
   svg{
       width: 100%;
       height: 100%;
-    transform: translate(30%, -65%);
+      transform: translate(30%, -50%);
   }
   path.slice{
       stroke-width:10px;
@@ -181,4 +181,21 @@ footer {
     margin-left: 250px;
    
 
+}
+
+/*bar chart*/
+
+.BarChart {
+    font:px sans-serif;
+  }
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke:red;
+    shape-rendering: crispEdges;
+  }
+
+  .bar {
+    fill: steelblue;
 }
